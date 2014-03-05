@@ -1,0 +1,47 @@
+<!--project template:  /templates/base.html -->
+
+<!DOCTYPE html>
+
+ 
+<html lang=en>
+<head>
+    <title>{% block title %}Sports Roster Project{% endblock %}</title>
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/style.css" rel="stylesheet">
+</head>
+    
+<body>
+    <div class="container">
+        
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class="active">
+                        <a href="{% url 'roster_home'  %}">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+                <h2 class="text-muted">Carolina Athletics</h2>
+            </div>
+    </div>
+
+    
+    
+    {% block content %}{% endblock %}
+    
+    
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted centered margin-top">Alexandra Fortune | JOMC 583 | UNC-Chapel Hill </p>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>  
+    
+</body>
+</html>

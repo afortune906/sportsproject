@@ -1,0 +1,40 @@
+{% extends "base.html"%}    
+{% load url from future %}
+
+{% block content %}
+<html>
+    <head>
+        <title>Sports Roster Application</title>
+    </head>
+        
+<body>
+
+    <div class="jumbotron margin-top">
+        <div class="container">
+            <h1>{{ team.name }}</h1>
+            <p>{{ team.description }}</p>
+        </div>
+    </div>
+    <div class="jumbotron teampicture">
+        <img style="width:100%" src="{{ STATIC_URL }}img/{{ team.teamimageurl }}">
+    </div>
+
+    <div class="container marketing">
+        <div class="lead centered">
+            <h2>Roster:</h2>
+        </div>
+        {% for player in players %}
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 centered">
+            <img class="img-thumbnail" style="width:60%" src="{{ STATIC_URL }}img/{{ player.imageurl }}"
+            style="width: 140px; height: 140px;">
+                <h4><a href="player/{{ player.id }}">{{ player.name }}</a></h4>
+        </div>
+       {% endfor %}
+    </div>
+  
+
+
+
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,4 @@
+*.pyc
+venv
+staticfiles
+static_media

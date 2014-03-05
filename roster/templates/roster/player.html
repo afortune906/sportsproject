@@ -1,0 +1,60 @@
+{% extends "base.html"%}    
+{% load url from future %}
+
+{% block content %}
+<html>
+    <head>
+        <title>Sports Roster Application</title>
+    </head>
+        
+<body>
+
+    <div class="container marketing">
+        <div class="lead">
+            <h1>{{ player.name }}</h1>
+        </div>
+    </div>
+        
+<div class="container">
+<div class="row">
+    <div class="col-md-8">
+    <table class="col-md-6 highlight" border="1" rules="rows">
+            <th class="lead" colspan="2">Fast Facts:</th>
+            <tr><td><strong>Height: </strong></td><td>{{ player.height }}</td></tr>
+            <tr><td><strong>Year: </strong></td><td>{{ player.year }}</td></tr>
+            <tr><td><strong>Hometown: </strong></td><td>{{ player.hometown }}</td></tr>
+            <tr><td><strong>High School: </strong></td><td>{{ player.highschool }}</td></tr>
+            <tr><td><strong>Experience: </strong></td><td>{{ player.experience }}</td></tr>
+            <!--- <p><button type="button" href="team/{{ team.id }}" class="btn btn-primary">Back to Team Page</button></p> -->
+    </table>
+    <div class="col-md-6">
+        <img class="border-radius" height="290" width="290" src="{{ player.maplink }}">
+    </div>
+    <div class="col-md-12 highlight margin-top">
+        <p class="lead padding-top">Description & Prep Highlights:</p>
+        <p>{{ player.description }}</p>
+    </div>
+    </div>
+    
+    
+    <div class="col-md-4">
+        <img class="img-thumbnail" style="width:100%" src="{{ STATIC_URL }}img/{{ player.imageurl }}"
+        style="width: 140px; height: 140px;">
+        <div class="callout">
+            <p class="lead centered">Player Stats</p>
+            <p><strong>Fall 2013 Singles: </strong>{{ player.fallstatssingles }}</p>
+            <p><strong>Fall 2013 Doubles: </strong>{{ player.fallstatsdoubles }}</p>
+            <p><strong>Career Singles: </strong>{{ player.careerstatssingles }}</p>
+            <p><strong>Career Doubles: </strong>{{ player.careerstatsdoubles }}</p>
+        </div>
+    </div>
+    <div class="col-md-8">
+
+    </div>
+    
+</div>
+</div>
+
+</body>
+</html>
+{% endblock %}

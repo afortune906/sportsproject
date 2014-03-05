@@ -1,0 +1,288 @@
+[
+    {
+        "pk": 1, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Men's Baseball",
+            "headcoach": "Mike Fox",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "baseball.png",
+            "teamimageurl": "baseball.jpg"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Men's Basketball",
+            "headcoach": "Roy Williams",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "basketball.png",
+            "teamimageurl": "mensbasketball.jpg"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Men's Cross Country",
+            "headcoach": "Mark Vanalstyne",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "crosscountry.png",
+            "teamimageurl": "crosscountry.jpg"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Men's Fencing",
+            "headcoach": "Ron Miller",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "fencing.png",
+            "teamimageurl": "mensfencing.jpg"
+        }
+    },
+    {
+        "pk": 5, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Football",
+            "headcoach": "Larry Fedora",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "football.png",
+            "teamimageurl": "football.jpg"
+        }
+    },
+    {
+        "pk": 6, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Men's Golf",
+            "headcoach": "Andrew Sapp",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "golf.png",
+            "teamimageurl": "mensgolf.jpg"
+        }
+    },
+    {
+        "pk": 7, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Men's Lacrosse",
+            "headcoach": "Joe Breschi",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "lacrosse.png",
+            "teamimageurl": "menslacrosse.jpg"
+        }
+    },
+    {
+        "pk": 8, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Men's Soccer",
+            "headcoach": "Carlos Somoano",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "soccer.png",
+            "teamimageurl": "menssoccer.jpg"
+        }
+    },
+    {
+        "pk": 9, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Men's Swimming & Diving",
+            "headcoach": "Rich DeSelm",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "swimming.png",
+            "teamimageurl": "mensswimming.jpg"
+        }
+    },
+    {
+        "pk": 10, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Men's Tennis",
+            "headcoach": "Sam Paul",
+            "description": "Expect the men's tennis team to be one of the nation's most improved NCAA Division I teams in 2014. The team played the 2013 season with an almost entirely rebuilt roster coming off an NCAA Sweet 16 campaign in 2012. In 2014, Carolina returns five of six starters from last year's singles lineup and has added one of the best recruiting classes in school history.",
+            "icon": "tennis.png",
+            "teamimageurl": "menstennis.jpg"
+        }
+    },
+    {
+        "pk": 11, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Men's Track & Field",
+            "headcoach": "Harlis Meaders",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "track.png",
+            "teamimageurl": "menstrack.jpg"
+        }
+    },
+    {
+        "pk": 12, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Wrestling",
+            "headcoach": "C.D. Mock",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "wrestling.png",
+            "teamimageurl": "wrestling.jpg"
+        }
+    },
+    {
+        "pk": 13, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Women's Basketball",
+            "headcoach": "Sylvia Hatchell",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "basketball.png",
+            "teamimageurl": "womensbasketball.jpg"
+        }
+    },
+    {
+        "pk": 14, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Women's Cross Country",
+            "headcoach": "Mark Vanalstyne",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "crosscountry.png",
+            "teamimageurl": "crosscountry.jpg"
+        }
+    },
+    {
+        "pk": 15, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Women's Fencing",
+            "headcoach": "Ron Miller",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "fencing.png",
+            "teamimageurl": "womensfencing.jpg"
+        }
+    },
+    {
+        "pk": 16, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Field Hockey",
+            "headcoach": "Karen Shelton",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "fieldhockey.png",
+            "teamimageurl": "fieldhockey.jpg"
+        }
+    },
+    {
+        "pk": 17, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Women's Golf",
+            "headcoach": "Jan Mann",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "golf.png",
+            "teamimageurl": "womensgolf.jpg"
+        }
+    },
+    {
+        "pk": 18, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Gymnastics",
+            "headcoach": "Derek Galvin",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "gymnastics.png",
+            "teamimageurl": "gymnastics.jpg"
+        }
+    },
+    {
+        "pk": 19, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Women's Lacrosse",
+            "headcoach": "Jenny Levy",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "lacrosse.png",
+            "teamimageurl": "womenslacrosse.jpg"
+        }
+    },
+    {
+        "pk": 20, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Rowing",
+            "headcoach": "Sarah Haney",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "rowing.png",
+            "teamimageurl": "rowing.jpg"
+        }
+    },
+    {
+        "pk": 21, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Women's Soccer",
+            "headcoach": "Anson Dorrance",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "soccer.png",
+            "teamimageurl": "womenssoccer.jpg"
+        }
+    },
+    {
+        "pk": 22, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Softball",
+            "headcoach": "Donna Papa",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "baseball.png",
+            "teamimageurl": "softball.jpg"
+        }
+    },
+    {
+        "pk": 23, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Women's Swimming & Diving",
+            "headcoach": "Rich DeSelm",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "swimming.png",
+            "teamimageurl": "womensswimming.jpg"
+        }
+    },
+    {
+        "pk": 24, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Women's Tennis",
+            "headcoach": "Brian Kalbas",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "tennis.png",
+            "teamimageurl": "womenstennis.jpg"
+        }
+    },
+    {
+        "pk": 25, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Women's Track & Field",
+            "headcoach": "Harlis Meaders",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "track.png",
+            "teamimageurl": "track.jpg"
+        }
+    },
+    {
+        "pk": 26, 
+        "model": "roster.Team", 
+        "fields": {
+            "name": "Volleyball",
+            "headcoach": "Joe Sagula",
+            "description": "Lorem ipsum dolor sit amet, consectetuadipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "icon": "volleyball.png",
+            "teamimageurl": "volleyball.jpg"
+        }
+    }
+    ]
